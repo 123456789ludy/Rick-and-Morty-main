@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100vw  ;
+  height: 100vh ;
+
+}
+
+
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+  max-width: 1440px;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  
+}
+
+.background-top {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(37, 240, 10);
+  background-size: 100% 100%;
+
+  background-image:url('https://www.lascosasquenoshacenfelices.com/wp-content/uploads/2022/09/rick-y-morty-temporada-6-capitulo-2.jpg');
+}
+
+.top-input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+
+}
+
+.list-character {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.detail-character {
+  width: 400px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+  background-color: rgb(3, 5, 4);
+  
+}
+
+.numbers{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+
+}
+
+.numbers button{
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(243, 12, 243);
+  color: white;
+}
+.articles {
+
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+input::placeholder {
+
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+input:focus {
+  outline: none;
+}
+container{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  background-position: center ;
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  margin-bottom : 3rem ;
+
+  
+}
+.color-alive{
+ background-color: green;
+  height: 10px;
+}
